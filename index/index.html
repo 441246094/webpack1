@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Document</title>
+
+    <script src="../dist/index.bindle.js"></script>
+</head>
+<body>
+<header class="top_bar">
+    <div class="contain_f">
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+    </div>
+    <div class="contianer">
+        <ul class="clearfix">
+            <li >
+                <img src="images/heek1.png" class="img_1" alt="">
+            </li>
+            <li  style="border-left:2px solid #4A4747;"><a href="3" class="a2">关于我们</a></li>
+            <li ><a href="#" class="a2">产品介绍</a></li>
+            <li ><a href="#" class="a2">门店概述</a></li>
+            <li style="border-right:2px solid #4A4747;"><a href="#" class="a2">礼品卡</a></li>
+            <li ><a href="#" class="a1"><img src="images/wb.png" class="img_2" alt=""></a>
+                <a href="#" class="a1"><img src="images/wx.png" class="img_2" alt=""></a>
+            </li>
+        </ul>
+    </div>
+</header>
+<div class="banner">
+    <div class="swiper-container" >
+        <div class="swiper-wrapper" >
+            <div class="swiper-slide"><a href="#" ><img src="images/banner2.jpg" alt=""></a></div>
+            <div class="swiper-slide"><a href="#" ><img src="images/banner3.jpg"  alt=""></a></div>
+            <div class="swiper-slide"><a href="#" ><img src="images/banner4.jpg"  alt=""></a></div>
+
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+<script>
+    window.onload=function(){
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        autoplay:1000,
+        loop:true,
+        grabCursor: true,
+        autoplay: 4000,   /**设置时间三秒**/
+        autoplayDisableOnInteraction : false//触动滑块再次触发轮播
+    });
+    }
+</script>
+<section class="home">
+    <div class="home_bar">
+        <div class="home_title">
+            <h2>关于我们</h2>
+        </div>
+        <div class="home_text">
+            <img src="images/b2.png" alt="">
+        </div>
+
+        <div class="home_about clearfix">
+
+            <p>2012年，喜茶HEYTEA起源于广东江门一条名叫江边里的小巷， 原名皇茶royaltea(为了与层出不穷的山寨品牌区分开来，故全面升级为注册品牌喜茶HEYTEA）。</p>
+            <p>喜茶为芝士奶盖首创者，有别于市面上制作粗糙、茶汤廉价的传统奶盖，喜茶专注于呈现来自世界各地的优质茶香，风靡珠三角地区。</p>
+            <a href="#">了解更多</a>
+
+        </div>
+    </div>
+</section>
+<section class="Product">
+    <div class="Product_bar">
+        <div class="Product_title">
+            <h2>产品介绍</h2>
+        </div>
+        <div class="Product_text">
+            <ul class="clearfix">
+                <li>
+                    <a href="#">
+
+                        <img src="images/g1.png" alt="">
+
+                        <h2>HEYTEA CHEESE</h2>
+                        <p>原创芝士茗茶</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+
+                        <img src="images/g2.png" alt="">
+
+                        <h2>HEYTEA CHEESE</h2>
+                        <p>原创芝士茗茶</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+
+                        <img src="images/g3.png" alt="">
+
+                        <h2>HEYTEA CHEESE</h2>
+                        <p>原创芝士茗茶</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+
+                        <img src="images/g4.png" alt="">
+
+                        <h2>HEYTEA CHEESE</h2>
+                        <p>原创芝士茗茶</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="Store">
+    <div class="Store_bar">
+        <div class="Store_title">
+            <h2>门店概述</h2>
+        </div>
+        <div class="Store_text">
+            <img src="images/b1.png" alt="">
+        </div>
+    </div>
+</section>
+<section>
+    <div class="guanyu">
+        <div class="guanyu_text">
+            <ul class="clearfix">
+                <li>
+                    <div>
+                        <h2>深圳地区</h2>
+                        <p><a href="#">海岸城店</a></p>
+                        <p><a href="#">中心城LAB店</a></p>
+                        <p><a href="#">福田COCOPARK店</a></p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h2>广州地区</h2>
+                        <p><a href="#">东方宝泰店</a></p>
+                        <p><a href="#">花城汇南店</a></p>
+                        <p><a href="#">石牌桥店</a></p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h2>杭州地区</h2>
+                        <p><a href="#">杭州来福士店</a></p>
+                        <p><a href="#">杭州银泰店</a></p>
+                        <p><a href="#">杭州万象城店</a></p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h2>中山地区</h2>
+                        <p><a href="#">白水井总店</a></p>
+                        <p><a href="#">利和广场店</a></p>
+                        <p><a href="#">假日广场店</a></p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h2>佛山地区</h2>
+                        <p><a href="#">大良LAB店</a></p>
+                        <p><a href="#">顺德容桂店</a></p>
+                        <p><a href="#">东方广场店</a></p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h2>惠州地区</h2>
+                        <p><a href="#">惠州麦地路店</a></p>
+                        <p><a href="#">惠州华贸店</a></p>
+                        <p><a href="#">港惠新天地店</a></p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h2>东莞地区</h2>
+                        <p><a href="#">雍华庭店</a></p>
+                        <p><a href="#">长安店</a></p>
+                        <p><a href="#">凤岗店</a></p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h2>上海地区</h2>
+                        <p><a href="#">来福士店</a></p>
+                        <p><a href="#">美罗城店</a></p>
+                        <p><a href="#">日月光店</a></p>
+                    </div>
+                </li>
+                <li class="no">
+                    <div>
+                        <h2>江门地区</h2>
+                        <p><a href="#">地王LAB店</a></p>
+                        <p><a href="#">中天新地店</a></p>
+                        <p><a href="#">汇悦城店</a></p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h2>广西地区</h2>
+                        <p><a href="#">广西南宁店</a></p>
+                        <p><a href="#">广西水晶城店</a></p>
+                        <p><a href="#">广西水晶城店</a></p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h2>北京地区</h2>
+                        <p><a href="#">北京三里屯店</a></p>
+                        <p><a href="#">北京大悦城店</a></p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h2>苏州地区</h2>
+                        <p><a href="#">苏州印象城店</a></p>
+                        <p><a href="#">苏州圆融时代店</a></p>
+                    </div>
+                </li>
+            </ul>
+            <div class="btn"><a href="#">查看更多门店</a></div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="lip">
+        <div class="lip_title">
+            <a href="#">礼品卡</a>
+        </div>
+        <div class="lip_text">
+            <img src="images/b1.png" alt="">
+        </div>
+    </div>
+</section>
+<section>
+    <div class="footer">
+        <div class="footer_text">
+            <p class="hidd">这是 喜茶 的唯一官网，所有门店已完成招牌更换为喜茶，市面上一切“皇茶”相关的名字都与我们没有关系。</p>
+            <p class="hidd">深圳美西西餐饮管理有限公司·喜茶起源于一条名叫江边里的小巷，在这家只有20平方米的小店里（现已结业）我们专注于创造出自己 真正喜爱的茶饮。我们希望用 一杯好茶，激发你的一份灵感。后来由于喜爱的人越来越多我们开始开设分店。一开始我们使用过“皇茶”这个名字，后来由于无法注册商标而放弃了，现在市场上所有你看到 的所有以“皇茶”为名称的门店都不是我们开设的。</p>
+            <p class="hidd">抱歉我们不接受任何形式的加盟，一切关于加盟的一律不回复。</p>
+            <p>深圳美西西餐饮管理有限公司</p>
+            <p>地址：南山区深南大道9672号大冲商务中心</p>
+            <p>意见反馈及媒体合作：pr@heytea.com</p>
+            <p>备案序号：粤ICP备17015131号</p>
+            <a href="#"><img src="images/brand_bottom_large.jpg" alt=""></a>
+        </div>
+    </div>
+</section>
+</body>
+</html>

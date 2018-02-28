@@ -1,0 +1,171 @@
+/* CSS Document */
+*{box-sizing:border-box;}
+/*全局定义*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}
+body{font-family: 'wenyue','Microsoft Yahei','\5FAE\8F6F\96C5\9ED1',Arial,'Hiragino Sans GB','\5B8B\4F53';-webkit-text-size-adjust:100%;background:#fff;color:#333;font-size:15px;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+address,cite,dfn,em,i,var,caption{font-style:normal;}
+ul,ol,li{list-style:none;}
+a,a img,button {cursor:pointer;}
+button,input,select,textarea{font-size:100%}
+table{border-collapse:collapse;border-spacing:0}
+img,input,select,button,textarea{border:0;vertical-align:middle}
+a,a:active,a:hover{text-decoration:none;color:inherit;}
+a:focus,input:focus,button:focus,select:focus,textarea:focus,button{outline:none;}
+html,body{height:100%;}
+::-webkit-input-placeholder { color:#ccc;}
+:-moz-placeholder { color:#ccc;}
+::-moz-placeholder { color:#ccc;}
+:-ms-input-placeholder { color:#ccc;}
+img{max-width: 100%;}
+/*浮动*/
+.fl{float:left;}
+.fr{float:right;}
+.clear{clear:both;height:0px;overflow: hidden;margin:0;padding:0;font-size:0}
+.clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+
+/*定位*/
+.p_rel{position:relative;}
+.p_abs{position:absolute;}
+.inline_block{display:inline-block;}
+
+/*颜色*/
+.bgFFF{background:#fff;}
+.bgF7{background:#f7f7f7;}
+.c111{color:#111;}
+.c666{color:#666;}
+
+/*间距*/
+.ml5{margin-left:5px;}
+.ml6{margin-left:6px;}
+.ml10{margin-left:10px;}
+.ml15{margin-left:15px;}
+.ml20{margin-left:20px;}
+.ml30{margin-left:30px;}
+.ml50{margin-left:50px;}
+.ml60{margin-left:60px;}
+.mb10{margin-bottom:10px;}
+.mb50{margin-bottom:50px;}
+.mr5{margin-right:5px;}
+.mr10{margin-right:10px;}
+.m10{margin:10px;}
+.m20{margin:20px;}
+.mt6{margin-top:6px;}
+.mt10{margin-top:10px;}
+.mt15{margin-top:15px;}
+.mt20{margin-top:20px;}
+.mt50{margin-top:50px;}
+.pb10{padding-bottom:10px;}
+.pb25{padding-bottom:25px;}
+.pr0{padding-right:0 !important;}
+.plr10{padding-left:10px;padding-right:10px;}
+.plr15{padding-left:15px;padding-right:15px;}
+.pt5{padding-top:5px;}
+.pd10{padding:10px;}
+.pd20{padding:20px;}
+
+/**/
+.tc{text-align:center;}
+
+
+
+/*header*/
+.top_bar{width: 100%;}
+.top_bar .contain_f{width: 100%;height: 60px;background-color: #4A4747;}
+.top_bar .contain_f .logo{height: 100%;width: 122px;margin: 0 auto;}
+.top_bar .contain_f .logo img{margin:5% auto;height: 80%;}
+
+.top_bar .contianer{width: 100%;height: 90px;padding: 0 15%;}
+.top_bar .contianer ul{width: 100%;height: 100%;}
+.top_bar .contianer ul li{float: left;width: 16.66666667%;height: 100%;text-align:center;line-height:90px;font-weight: bold;font-size: 26px;color:#4A4747;}
+.top_bar .contianer ul li .img_1{height: 80%;display: inline-block;margin: 5% auto;}
+.top_bar .contianer ul li a{display: inline-block;}
+
+.top_bar .contianer ul li .a1{text-align: left;}
+.top_bar .contianer ul li .img_2{width: 30px;height:30px;}
+.banner{width: 100%;height: auto;}
+
+
+.home_bar{width: 100%;}
+.home_bar .home_title{padding: 5% 0;}
+.home_bar .home_title h2{text-align: center;color: #333;font-size: 18px;}
+.home_text {text-align: center;padding:5% 0;}
+.home_about{padding:7% 25%;background-color: #ececec;}
+.home_about p{color: #333;font-size: 20px;line-height: 45px;}
+.home_about a{display: inline-block;width: 120px;height:30px;border:1px solid #4A4747;text-align: center;line-height: 30px;float: right;color: #4A4747;margin-top: 10px;}
+
+
+
+.Product_bar{width: 100%;padding-bottom: 5% ; }
+.Product_title h2{text-align: center;padding: 5% 0;font-size: 18px;}
+.Product_text{padding:0 25%;}
+.Product_text ul li{float: left;width: 50%;text-align: center;padding: 5% 0;}
+.Product_text ul li img{height: 200px;}
+.Product_text ul li h2{margin:10px auto;font-size: 18px;color: #333;}
+.Product_text ul li p{font-size: 18px;color: #333;}
+
+
+
+
+.Store_bar{width: 100%;padding-bottom: 5%;}
+.Store_title h2{text-align: center;padding:5% 0;font-size: 18px;}
+.Store_text{text-align: center;}
+
+.guanyu{width: 100%;background-color: #ECECEC;padding:2% 0;}
+.guanyu_text{padding: 0 20%;}
+.guanyu_text ul li{float: left;width: 25%;text-align: center;padding:5% 1%;}
+.guanyu_text ul li div{padding:1% 0;}
+.guanyu_text ul li div h2{font-size: 26px;}
+.guanyu_text ul li div a{font-size: 16px;display: inline-block;margin-top: 5px;}
+.guanyu_text .btn{padding:2% 5%;}
+.btn a{width: 100%;height: 40px;display: inline-block;background-color: #c0c0c0;color: white;line-height: 40px;text-align: center;border-radius: 5px;}
+
+.lip{width: 100%;padding:3% 0 5% 0;}
+.lip_title{text-align: center;display: block;width: 120px;height: 30px;border:1px solid #4A4747;line-height: 30px;color: #4A4747;font-weight:normal;margin:50px auto;}
+.lip_text{text-align: center;}
+.lip_title:hover{background-color: #4A4747;transition: all 0.5s;color:white;cursor: pointer;}
+
+.footer{width: 100%;background-color: #4A4747;}
+.footer_text{padding:5% 20%;color: white;line-height: 40px;}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1279px){
+    .top_bar .contianer{padding: 0 10%;}
+    .top_bar .contianer ul li{font-size: 21px;}
+    .guanyu_text{padding:0 10%;}
+    .home_about{padding:7% 15%;}
+}
+
+@media screen and (max-width: 959px){
+    .top_bar .contianer{padding: 0 5%;}
+    .top_bar .contianer ul li{font-size: 18px;}
+    .guanyu_text{padding:0 5%;}
+    .home_about{padding:7% 7%;}
+}
+
+@media screen and (max-width: 767px){
+
+    .top_bar {display: none;}
+    .home_about{padding: 5% 3%;}
+    .Product_text{padding:0 0 ;}
+    .home_about p{font-size: 14px;line-height: 20px;}
+    .Product_text ul li img{height: 120px;}
+    .Product_text ul li h2{font-size: 14px;}
+    .Product_text ul li p{font-size: 14px;}
+    .guanyu_text ul li{width: 50%;}
+
+    .guanyu_text ul li div h2{font-size: 16px;}
+    .guanyu_text ul li div a{font-size: 14px;}
+    .guanyu_text{padding:0 2%;}
+    .footer_text .hidd{display: none;}
+    .footer_text{padding:2% 2%;}
+}
+
+
